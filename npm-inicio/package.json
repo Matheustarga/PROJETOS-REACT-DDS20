@@ -1,0 +1,23 @@
+{
+  "name": "npm-matheus",
+  "version": "1.0.0",
+  "description": "pacote para testar o npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "inicial",
+    "tutorial"
+  ],
+  "author": "The Thetheu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "1.0.0",
+    "react": "^19.1.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
