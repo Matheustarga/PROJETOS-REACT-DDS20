@@ -5,15 +5,23 @@ import viteLogo from '/vite.svg'
 import FirstComponent from './components/FirstComponent'
 import SecondComponent from './components/SecondComponent'
 import TemplateExpressions from './components/TemplateExpressions'
+import Events from './components/Events'
+import MostrarImagens from './components/MostrarImagens'
+import MostrarPcTop from './components/MostrarPcTop'
+import OtherComponent from '../../segundo-projeto/src/components/OtherComponent'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <SecondComponent />
+      <Events/>
+     { /*<SecondComponent />
       <FirstComponent />
-      <TemplateExpressions />
+      <TemplateExpressions />*/}
+      <MostrarImagens />
+      <MostrarPcTop />
+      
     </>
   )
 }

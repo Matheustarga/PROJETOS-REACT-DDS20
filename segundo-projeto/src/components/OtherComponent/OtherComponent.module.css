@@ -1,0 +1,9 @@
+.titulo{
+    color: green;
+    background-color: purple;
+}
+.subTitulo{
+    color: yellow;
+    background-color: red;
+    font-size: 50px;
+}
